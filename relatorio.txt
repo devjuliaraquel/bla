@@ -1,0 +1,13 @@
+
+RELATÓRIO COMPARATIVO – 5 Arquiteturas de Renderização
+
+Tema: Site de Receitas
+
+CSR/SPA: Renderiza no cliente. Carregamento inicial mais lento, navegação rápida.
+SSR: HTML entregue pronto. Melhor SEO e inicialização rápida.
+SSG: Páginas estáticas geradas antes do deploy. Excelente performance.
+ISR: Similar ao SSG, mas atualiza páginas periodicamente sem rebuild total.
+MPA: Várias páginas físicas. Carregamento completo a cada navegação.
+
+Conclusão: SSG e ISR são mais rápidos para conteúdo estático. CSR é ideal para apps dinâmicos,
+SSR melhora SEO e MPA é simples porém menos eficiente em grandes projetos.
